@@ -18,6 +18,7 @@ public class bala : MonoBehaviour
     {
         if (other.CompareTag("Enemigo"))
         {
+            Debug.Log("hola");
             other.GetComponent<Enemigo>().TomarDaño(daño);
             Destroy(gameObject);
         }
