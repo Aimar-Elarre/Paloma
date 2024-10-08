@@ -26,7 +26,6 @@ public class Movi : MonoBehaviour
     {
         if (Input.GetKey(w))
         {
-            //transform.position = new Vector2(transform.position.x, transform.position.y + velocidad * Time.deltaTime);
             transform.position = transform.position + y * Time.deltaTime;
         }
         if (Input.GetKey(d))
